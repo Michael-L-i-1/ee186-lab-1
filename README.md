@@ -42,7 +42,11 @@ After enabling the GPIO clocks, `RCC_AHB2ENR` (`*rcc`) reads `6` (`0x00000006`).
 
 ### c)
 
-Pending: implement the green/blue/red blinking sequence and save the demonstration video in `part3-blinking-leds/videos/`.
+The LEDs repeat the sequence green → blue → red, with a software delay between colors.
+
+![Green, blue, and red LED sequence](part3-blinking-leds/videos/led_sequence.gif)
+
+[Original demonstration video (.mov)](part3-blinking-leds/videos/led_sequence.mov)
 
 ## Part 4. Blinking LED in Assembly
 

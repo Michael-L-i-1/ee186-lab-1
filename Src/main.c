@@ -21,10 +21,5 @@
 
 int main(void)
 {
-
-	// Altered to enable different tasks / parts
-
-    enable_gpio_clocks();
-
-    while (1);
+    run_part3();
 }
