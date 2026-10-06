@@ -21,10 +21,10 @@
 
 int main(void)
 {
-    // Choose one part: leave only the function you want to run uncommented.
-    // run_part2();          // Part 2: watch a, b, c, and d.
-    enable_gpio_clocks();   // Part 3: enable the clocks for GPIOB and GPIOC.
-    // Part 4 will be added when we write the assembly exercise.
 
-    while (1);             // Pause here to inspect RCC_AHB2ENR.
+	// Altered to enable different tasks / parts
+
+    enable_gpio_clocks();
+
+    while (1);
 }

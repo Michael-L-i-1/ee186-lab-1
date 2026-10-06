@@ -36,7 +36,9 @@ They should be outputs because the MCU sends signals to the LEDs. A high signal 
 
 ### b)
 
-Pending: capture the RCC register values after enabling the GPIO clocks and save the image in `part3-blinking-leds/screenshots/`.
+After enabling the GPIO clocks, `RCC_AHB2ENR` (`*rcc`) reads `6` (`0x00000006`). Bits 1 and 2 are set, enabling the clocks for GPIOB and GPIOC.
+
+![Debugger showing RCC_AHB2ENR after enabling GPIOB and GPIOC clocks](part3-blinking-leds/screenshots/rcc_clocks_enabled.png)
 
 ### c)
 
