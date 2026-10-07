@@ -52,6 +52,10 @@ The LEDs repeat the sequence green → blue → red, with a software delay betwe
 
 Implemented in [assembly_led.c](part4-blinking-led-in-assembly/assembly_led.c).
 
+![Blue LED demonstration using inline assembly](part4-blinking-led-in-assembly/videos/blue_led_assembly.gif)
+
+[Original demonstration video (.mov)](part4-blinking-led-in-assembly/videos/blue_led_assembly.mov)
+
 ## Assistance
 
 I used AI assistance to set up the project repo, laying out the different parts and setting up the README.md so that I can easily input my actual responses. I also used it to help understand some of these concepts and also help direct me on where to look inside the manuals since they were very big.
