@@ -18,8 +18,9 @@
 
 #include "../part2-flashing-and-debugging-code/part2.h"
 #include "../part3-blinking-leds/gpio.h"
+#include "../part4-blinking-led-in-assembly/assembly_led.h"
 
 int main(void)
 {
-    run_part3();
+    run_part4();
 }
