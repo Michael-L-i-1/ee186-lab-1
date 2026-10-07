@@ -50,7 +50,7 @@ The LEDs repeat the sequence green → blue → red, with a software delay betwe
 
 ## Part 4. Blinking LED in Assembly
 
-Pending: implement and verify the inline-assembly program that turns on the blue LED.
+Implemented in [assembly_led.c](part4-blinking-led-in-assembly/assembly_led.c).
 
 ## Assistance
 
